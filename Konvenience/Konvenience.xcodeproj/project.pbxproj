@@ -6,10 +6,17 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		E90F07EB182DD9DC004B8CCD /* UIView+Konvenience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Konvenience.h"; sourceTree = "<group>"; };
+		E90F07EC182DD9DC004B8CCD /* UIView+Konvenience.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Konvenience.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		E90F07E4182DD9A2004B8CCD = {
 			isa = PBXGroup;
 			children = (
+				E90F07EB182DD9DC004B8CCD /* UIView+Konvenience.h */,
+				E90F07EC182DD9DC004B8CCD /* UIView+Konvenience.m */,
 			);
 			sourceTree = "<group>";
 		};
