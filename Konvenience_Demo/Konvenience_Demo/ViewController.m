@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "UIView+Konvenience.h"
+#import "UIColor+Konvenience.h"
 
 @interface ViewController ()
 
@@ -24,18 +25,18 @@
     UIView * view2 = [[UIView alloc]initWithFrame:CGRectMake(150, 20, 130, 130)];
     UIView * view3 = [[UIView alloc]initWithFrame:CGRectMake(20, 180, 280, 280)];
     
-    [view1 setBackgroundColor:[UIColor yellowColor]];
-    [view2 setBackgroundColor:[UIColor cyanColor]];
-    [view3 setBackgroundColor:[UIColor greenColor]];
+    [view1 setBackgroundColor:[UIColor randomColorOpaque]];
+    [view2 setBackgroundColor:[UIColor randomColorAndOpacity]];
+    [view3 setBackgroundColor:[UIColor randomColorWithOpacity:0.5]];
     
     
     
-    [view1 setBorderColor:[UIColor redColor] andBorderWidth:30];
+    [view1 setBorderColor:[UIColor randomColorOpaque] andBorderWidth:30];
     
-    [view2 setBorderColor:[UIColor greenColor]];
+    [view2 setBorderColor:[UIColor randomColorAndOpacity]];
     [view2 setBorderWidth:10];
     
-    [view3 setBorderColor:[UIColor blueColor]];
+    [view3 setBorderColor:[UIColor randomColorOpaque]];
     [view3 setBorderWidth:15];
     
     [self.view addSubview:view1];
