@@ -23,7 +23,7 @@
 		E90F0826182DDBA0004B8CCD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E90F0824182DDBA0004B8CCD /* InfoPlist.strings */; };
 		E90F0828182DDBA0004B8CCD /* Konvenience_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F0827182DDBA0004B8CCD /* Konvenience_DemoTests.m */; };
 		E90F0836182DDBDC004B8CCD /* UIView+Konvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = E90F0834182DDBDC004B8CCD /* UIView+Konvenience.m */; };
-		E9A123E0182DE7B20074B994 /* UIColor+Konvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A123DF182DE7B20074B994 /* UIColor+Konvenience.m */; };
+		E9A123E3182DEAD40074B994 /* UIColor+Konvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A123E1182DEAD40074B994 /* UIColor+Konvenience.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		E90F0827182DDBA0004B8CCD /* Konvenience_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Konvenience_DemoTests.m; sourceTree = "<group>"; };
 		E90F0834182DDBDC004B8CCD /* UIView+Konvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Konvenience.m"; path = "../Konvenience/UIView+Konvenience.m"; sourceTree = "<group>"; };
 		E90F0835182DDBDC004B8CCD /* UIView+Konvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Konvenience.h"; path = "../Konvenience/UIView+Konvenience.h"; sourceTree = "<group>"; };
-		E9A123DE182DE7B20074B994 /* UIColor+Konvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Konvenience.h"; sourceTree = "<group>"; };
-		E9A123DF182DE7B20074B994 /* UIColor+Konvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Konvenience.m"; sourceTree = "<group>"; };
+		E9A123E1182DEAD40074B994 /* UIColor+Konvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Konvenience.m"; path = "../Konvenience/UIColor+Konvenience.m"; sourceTree = "<group>"; };
+		E9A123E2182DEAD40074B994 /* UIColor+Konvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Konvenience.h"; path = "../Konvenience/UIColor+Konvenience.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +92,8 @@
 			children = (
 				E90F0834182DDBDC004B8CCD /* UIView+Konvenience.m */,
 				E90F0835182DDBDC004B8CCD /* UIView+Konvenience.h */,
-				E9A123DE182DE7B20074B994 /* UIColor+Konvenience.h */,
-				E9A123DF182DE7B20074B994 /* UIColor+Konvenience.m */,
+				E9A123E1182DEAD40074B994 /* UIColor+Konvenience.m */,
+				E9A123E2182DEAD40074B994 /* UIColor+Konvenience.h */,
 				E90F07FF182DDBA0004B8CCD /* Konvenience_Demo */,
 				E90F0821182DDBA0004B8CCD /* Konvenience_DemoTests */,
 				E90F07F8182DDBA0004B8CCD /* Frameworks */,
@@ -265,7 +265,7 @@
 			files = (
 				E90F0836182DDBDC004B8CCD /* UIView+Konvenience.m in Sources */,
 				E90F0813182DDBA0004B8CCD /* ViewController.m in Sources */,
-				E9A123E0182DE7B20074B994 /* UIColor+Konvenience.m in Sources */,
+				E9A123E3182DEAD40074B994 /* UIColor+Konvenience.m in Sources */,
 				E90F080A182DDBA0004B8CCD /* AppDelegate.m in Sources */,
 				E90F0806182DDBA0004B8CCD /* main.m in Sources */,
 			);

@@ -9,6 +9,8 @@
 /* Begin PBXFileReference section */
 		E90F07EB182DD9DC004B8CCD /* UIView+Konvenience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Konvenience.h"; sourceTree = "<group>"; };
 		E90F07EC182DD9DC004B8CCD /* UIView+Konvenience.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Konvenience.m"; sourceTree = "<group>"; };
+		E9A123E4182DEAE40074B994 /* UIColor+Konvenience.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Konvenience.m"; sourceTree = "<group>"; };
+		E9A123E5182DEAE40074B994 /* UIColor+Konvenience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Konvenience.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -17,6 +19,8 @@
 			children = (
 				E90F07EB182DD9DC004B8CCD /* UIView+Konvenience.h */,
 				E90F07EC182DD9DC004B8CCD /* UIView+Konvenience.m */,
+				E9A123E4182DEAE40074B994 /* UIColor+Konvenience.m */,
+				E9A123E5182DEAE40074B994 /* UIColor+Konvenience.h */,
 			);
 			sourceTree = "<group>";
 		};
