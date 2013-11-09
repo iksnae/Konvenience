@@ -24,3 +24,27 @@ Set the border's size:
 Reset/Clear the borders
 
 ```[view resetBorders];```
+
+
+#UIColor+Konvenience
+
+###Random Colors
+
+Easily generate a random color
+
+-
+
+Random Color with 100% Opacity:
+
+```[UIColor randomColorOpaque];```
+
+Random Color and Opacity:
+
+```[UIColor randomColorAndOpacity];```
+
+Random Color with fixed Opacity:
+
+```[UIColor randomColorWithOpacity:0.5];```
+
+
+
