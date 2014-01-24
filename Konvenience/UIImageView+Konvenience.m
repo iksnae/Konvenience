@@ -28,9 +28,9 @@
 
 - (void)animateWithBaseImageName:(NSString *)baseImageName totalImages:(NSInteger)totalImages duration:(NSTimeInterval)duration loopAnimation:(BOOL)loop andCallback:(AnimationCompletionHandler)completionCallback
 {
-    NSMutableArray * frames = [NSMutableArray arrayWithCapacity:24];
+    NSMutableArray * frames = [NSMutableArray arrayWithCapacity:totalImages];
     
-    for (int i=1; i<25; i++) {
+    for (int i=1; i<totalImages+1; i++) {
         NSString * imageName = [NSString stringWithFormat:@"%@%04d",baseImageName,i];
         [frames addObject:[UIImage imageNamed:imageName]];
     }
