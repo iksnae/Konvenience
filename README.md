@@ -11,19 +11,27 @@ Easily modify the border color and width of a UIView
 
 Set the border's color and width in one call:
 
-```[view setBorderColor:[UIColor redColor] andBorderWidth:50];```
+```objective-c
+[view setBorderColor:[UIColor redColor] andBorderWidth:50];
+```
 
 Set the border's color:
 
-```[view setBorderColor:[UIColor blueColor]];```
+```objective-c
+[view setBorderColor:[UIColor blueColor]];
+```
 
 Set the border's size:
 
-```[view setBorderWidth:30];```
+```objective-c
+[view setBorderWidth:30];
+```
 
 Reset/Clear the borders
 
-```[view resetBorders];```
+```objective-c
+[view resetBorders];
+```
 
 
 #UIColor+Konvenience
@@ -36,15 +44,21 @@ Easily generate a random color
 
 Random Color with 100% Opacity:
 
-```[UIColor randomColorOpaque];```
+```objective-c
+[UIColor randomColorOpaque];
+```
 
 Random Color and Opacity:
 
-```[UIColor randomColorAndOpacity];```
+```objective-c
+[UIColor randomColorAndOpacity];
+```
 
 Random Color with fixed Opacity:
 
-```[UIColor randomColorWithOpacity:0.5];```
+```objective-c
+[UIColor randomColorWithOpacity:0.5];
+```
 
 
 #UIImageView+Konvenience
@@ -55,7 +69,7 @@ This method enables loading and playing of an image sequence in one call with op
 
 Note: If looping set to YES, callback will be ignored.
 
-```
+```objective-c
 UIImageView * img = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"startFrame"]];
 // intro animation ( uses introFrames0001.png - introFrames0024.png )
 [img animateWithBaseImageName:@"introFrames" totalImages:24 duration:1 loopAnimation:NO andCallback:^(UIImageView *imageView) {
