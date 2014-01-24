@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "UIView+Konvenience.h"
 #import "UIColor+Konvenience.h"
+#import "UIImageView+Konvenience.h"
 
 @interface ViewController ()
 
@@ -42,6 +43,17 @@
     [self.view addSubview:view1];
     [self.view addSubview:view2];
     [self.view addSubview:view3];
+    
+    UIImageView * img = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"startFrame"]];
+    
+    
+    // intro animation ( uses introFrames0001.png - introFrames0024.png )
+    [img animateWithBaseImageName:@"introFrames" totalImages:24 duration:1 loopAnimation:NO andCallback:^(UIImageView *imageView) {
+        // loop animation ( uses loopFrames0001.png - loopFrames0024.png )
+        [imageView animateWithBaseImageName:@"loopFrames" totalImages:24 duration:1 loopAnimation:YES andCallback:^(UIImageView *imageView) {
+            // now looping!
+        }];
+    }];
     
    
 }
